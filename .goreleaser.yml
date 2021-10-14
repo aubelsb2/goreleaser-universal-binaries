@@ -70,5 +70,7 @@ nfpms:
 universal_binaries:
   - id: app1
     replace: true
+    name_template: '{{.ProjectName}}_app1_{{.Version}}'
   - id: app2
     replace: true
+    name_template: '{{.ProjectName}}_app2_{{.Version}}'
