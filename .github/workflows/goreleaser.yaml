@@ -25,7 +25,7 @@ jobs:
         with:
           distribution: goreleaser
           version: 0.182.1
-          args: -version
+          args: --version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       -
