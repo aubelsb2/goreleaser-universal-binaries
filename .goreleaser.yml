@@ -68,4 +68,7 @@ nfpms:
     section: default
     priority: extra
 universal_binaries:
-  - replace: true
+  - id: app1
+    replace: true
+  - id: app2
+    replace: true
