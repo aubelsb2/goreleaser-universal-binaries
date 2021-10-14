@@ -68,5 +68,4 @@ nfpms:
     section: default
     priority: extra
 universal_binaries:
-  - id: universal
-    replace: true
+  - replace: true
